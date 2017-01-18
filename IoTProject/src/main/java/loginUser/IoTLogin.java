@@ -19,8 +19,6 @@ public class IoTLogin{
 
 	@BeforeMethod
 	public void setUp() throws Exception {
-		
-		//ExtentReports extent = ExtentReports.get(Main.class);
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajuk\\git\\IoTProject\\CHDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
