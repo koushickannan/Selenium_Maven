@@ -55,7 +55,7 @@ public class IoTLogin{
 				System.out.println("Test Result: Pass");
 			}
 			
-			//System.out.println("Thank you!!");
+			System.out.println("Thank you!!");
 				
 		
 
