@@ -18,7 +18,7 @@ import net.sourceforge.htmlunit.corejs.javascript.tools.debugger.Main;
 
 public class IoTLogin{
 	WebDriver driver;
-	String baseUrl = "http://15.213.51.130:8080/dsm/";
+	String baseUrl = "http://15.213.51.128:8080/dsm/";
 	private StringBuffer verificationErrors = new StringBuffer();
 
 	@BeforeMethod
