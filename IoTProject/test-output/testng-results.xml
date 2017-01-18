@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47423" started-at="2016-12-01T11:43:09Z" finished-at="2016-12-01T11:43:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47423" started-at="2016-12-01T11:43:09Z" finished-at="2016-12-01T11:43:57Z">
+      <class name="loginUser.IoTLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:loginUser.IoTLogin@523884b2]" name="setUp" is-config="true" duration-ms="4960" started-at="2016-12-01T17:13:09Z" finished-at="2016-12-01T17:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginForm()[pri:0, instance:loginUser.IoTLogin@523884b2]" name="loginForm" duration-ms="42343" started-at="2016-12-01T17:13:14Z" finished-at="2016-12-01T17:13:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [15.213.51.130] but found [Log in to saml-demo]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [15.213.51.130] but found [Log in to saml-demo]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at loginUser.IoTLogin.loginForm(IoTLogin.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:loginUser.IoTLogin@523884b2]" name="tearDown" is-config="true" duration-ms="78" started-at="2016-12-01T17:13:57Z" finished-at="2016-12-01T17:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loginUser.IoTLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
