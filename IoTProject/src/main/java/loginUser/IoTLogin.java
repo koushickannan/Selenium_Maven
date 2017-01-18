@@ -20,7 +20,7 @@ public class IoTLogin{
 	@BeforeMethod
 	public void setUp() throws Exception {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajuk\\Downloads\\IoT.Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajuk\\git\\IoTProject\\CHDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
