@@ -6,8 +6,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class MultiBrowser {
+public class Platform {
 
 	public WebDriver driver;
 
