@@ -31,7 +31,7 @@
 	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/cssparser-0.9.20.jar"/>
 	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/gson-2.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/guava-19.0.jar" sourcepath="C:/Koushic Kannan/Automation/IoT.Selenium/src-jdk.zip"/>
 	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/hamcrest-library-1.3.jar"/>
 	<classpathentry kind="lib" path="C:/Koushic Kannan/Automation/IoT.Selenium/Selenium/lib/htmlunit-2.23.jar"/>

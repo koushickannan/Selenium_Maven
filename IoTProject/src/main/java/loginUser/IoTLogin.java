@@ -10,6 +10,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import common.Main;
+import common.Platform;
+import common.PropertyHelper;
+
 //import common.AlreadyRunException;
 
 public class IoTLogin{
@@ -19,9 +23,12 @@ public class IoTLogin{
 
 	@BeforeMethod
 	public void setUp() throws Exception {
+		
+		Main m = new Main();
+		driver.manage().window().maximize();
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajuk\\git\\IoTProject\\CHDriver\\chromedriver.exe");
-		driver = new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajuk\\git\\IoTProject\\CHDriver\\chromedriver.exe");
+//		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
